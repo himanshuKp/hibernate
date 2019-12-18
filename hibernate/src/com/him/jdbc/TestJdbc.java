@@ -20,7 +20,7 @@ public class TestJdbc {
 			System.out.println("Connection successfull.");
 			
 		} catch (Exception e) {
-			System.out.println(e);
+			e.printStackTrace();
 		}
 	}
 
